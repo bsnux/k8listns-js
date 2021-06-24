@@ -1,0 +1,19 @@
+= k8listns-js
+
+Simple example for using JavaScript (Node.js) for accesing to Kubernetes.
+
+This script displays namespaces names for default configured context.
+
+== Setup
+
+[source,bash]
+```
+npm install
+```
+
+== Run
+
+[source,bash]
+```
+npm run start
+```

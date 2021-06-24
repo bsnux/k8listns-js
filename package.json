@@ -1,0 +1,27 @@
+{
+  "name": "k8listns",
+  "version": "1.0.0",
+  "description": "Listing all namespaces in given cluster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsnux/k8listns-js.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "cloud"
+  ],
+  "author": "Arturo Fernandez",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bsnux/k8listns-js/issues"
+  },
+  "homepage": "https://github.com/bsnux/k8listns-js#readme",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.14.3"
+  }
+}
